@@ -1,0 +1,104 @@
+/*貼上網路Icon
+1.在html貼上<link rel
+2.在css貼上<style(改為{})
+3.在html最後貼上<span class
+*/
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+/*作業開始*/
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/*class在css中前面必須有.
+空白建=所有的子階層
+*/
+
+.Top_bar {
+  background-color: rgba(71, 71, 71, 1);
+  display: flex;
+  padding: 10px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.Top_bar a {
+  text-decoration: none;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.Top_bar ul {
+  display: inline-block;
+}
+.Top_bar li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  display: inline-flex;
+  width: calc(100% - 270px);
+  justify-content: flex-end;
+}
+button {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px 10px;
+  text-decoration: solid;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.ntua_vcd_nav {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+/*後方空白建在加a=包含html裡a的子集合
+display: block;(使其斷行,前方有點)
+display: inline-block;(使其平行，點消失)
+vertical-align: middle;(置中)
+margin=外距( : 0;)
+padding=內距
+*/
+
+.ntua_vcd_nav a {
+  text-decoration: none;
+  color: #000000;
+}
+.ntua_vcd_nav ul {
+  display: inline-flex;
+  width: calc(100% - 470px);
+  justify-content: center;
+}
+.preorder {
+  display: inline-flex;
+}
+.ntua_vcd_nav li {
+  display: inline-flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+body {
+  background-color: gray;
+}
+
+.hero {
+  display: inline-flex;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#ntua {
+  font-size: 32px;
+}
